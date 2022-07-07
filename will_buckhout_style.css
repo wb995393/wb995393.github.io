@@ -1,0 +1,49 @@
+h1, h2 {
+  color: #1425CA;
+}
+
+div.a {
+color: Black;
+width: 10%;
+font-size:18px;
+}
+div.b {
+color: Black;
+width: 17%;
+font-size:18px;
+}
+div.c {
+  color: Black;
+  width: 25%;
+  font-size:18px;
+}
+div.d {
+color: Black;
+width: 34%;
+font-size:18px;
+}
+div.e {
+color: Black;
+width: 40%;
+font-size:18px;
+}
+
+body {
+  background-color: #C5D7E2;
+  font-family: font-family: "Times New Roman", Times, serif;
+  border: 15px blue;
+ outline: #blue solid 10px;
+ margin: auto;
+ padding: 20px;
+ text-align: center;
+}
+
+button {
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px #3866a3 solid;
+	background: linear-gradient(180deg, #63B8EE 5%, #468CCF 100%);
+	text-shadow: 1px 1px 1px #528ecc;
+}
