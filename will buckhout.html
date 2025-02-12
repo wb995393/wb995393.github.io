@@ -1,0 +1,98 @@
+<DOCTYPE! html>
+<html>
+
+<head>
+	<title>Will Buckhout's Resume</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="will_buckhout_style.css">
+
+	<a href="./education.html">&nbsp;Education&nbsp;</a>
+
+	<a href="./work history.html">&ensp;Work History&emsp;</a>
+
+	<a href="./GIS Software Skills.html">&nbsp;GIS Software Skills&nbsp;</a>
+
+	<a href="./projects.html">&nbsp;Projects&nbsp;</a>
+
+	<a href="./references.html">&nbsp;References&nbsp;</a>
+
+<br> </br>
+
+<div id="will buckhout">
+<h1><strong>Will J. Buckhout</strong></h1>
+<h2>WB995393@gmail.com | 1840 Winona Boulevard, Los Angeles, CA, 90027 Apt. 113 | 914-806-2273</h2>
+</div>
+
+<br></br>
+
+<div id="qualities">
+	<section class="qualities">
+		<form>
+          <span><strong>Select the personal qualities you look for in an ideal candidate.</strong></span>
+					<br></br>
+
+					<input type="checkbox" name="qualities" id="ambitious" value="ambitious">
+					<label for="ambitious">Ambitious</label>
+
+					<input type="checkbox" name="qualities" id="integrity" value="integrity"
+					<label for ="integrity">Integrity</label>
+
+					<input type="checkbox" name="qualities" id="compassionate" value="compassionate"
+					<label for ="compassionate">Compassionate</label>
+
+					<input type="checkbox" name="qualities" id="analytical" value="analytical"
+					<label for ="analytical">Analytical</label>
+
+					<input type="checkbox" name="qualities" id="creative" value="creative">
+					<label for="creative">Creative</label>
+
+					<br></br>
+
+					<input type="checkbox" name="qualities" id="dependable" value="dependable">
+					<label for="integrity">Dependable</label>
+
+					<input type="checkbox" name="qualities" id="organized" value="organized">
+          <label for="organized">Organized</label>
+
+          <input type="checkbox" name="qualities" id="self-motivated" value="self-motivated">
+          <label for="self-motivated">Self-Motivated</label>
+
+					<input type="checkbox" name="qualities" id="adaptable" value="adaptable">
+          <label for="adaptable">Adaptable</label>
+
+					<input type="checkbox" name="qualities" id="conscientious" value="conscientious">
+          <label for="dependable">Conscientious</label>
+
+
+        		</section>
+							</form>
+
+	<section class="button">
+	    <button onclick="toggleButton()">Click To Get Your Ideal Candidate</button>
+	    <p id="button"></p>
+	</section>
+
+	<script>
+	    var buttonClicked = false;
+
+	    function toggleButton() {
+	        var buttonElement = document.getElementById("button");
+
+	        if (buttonClicked) {
+	            buttonElement.innerHTML = "";
+	            buttonClicked = false;
+	        } else {
+	            buttonElement.style.color = 'white';
+	            buttonElement.style.font = 'bold 100px elephant';
+	            buttonElement.style.textShadow = '10px 10px 10px #0E12A2';
+	            buttonElement.innerHTML = "Will Buckhout";
+	            buttonClicked = true;
+	        }
+				}
+	</script>
+
+</script>
+</body>
+
+</html>
