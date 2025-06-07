@@ -31,8 +31,12 @@ text-align: center;
 background: white;
 font-size:18px;
 text-shadow: 1px 1px 1px #528ecc;
-}
 
+}
+table {
+  width:100%
+
+}
 
 td, tr {
   font-family:"Times New Roman", Times, serif;
