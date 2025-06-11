@@ -29,7 +29,7 @@ border:1px solid;
 text-align: center;
 background: white;
 font-size:18px;
-text-shadow: 1px 1px 1px #528ecc;
+text-shadow: .5px .5px .5px #528ecc;
 
 }
 table {
