@@ -1,6 +1,6 @@
 h1, h2 {
   color: #0D00A1;
-  text-shadow: 1px 1px 1px #528ecc;
+  text-shadow: 1px 1px 1px #000000;
 }
 div.a {
   color: Black;
@@ -37,7 +37,7 @@ span {
 
 body {
   background-color: #C5D7E2;
-  font-family: font-family: "Times New Roman", Times, serif;
+  font-family: font-family: sans-serif;
   border: 15px blue;
   outline: #blue solid 10px;
   margin: auto;
