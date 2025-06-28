@@ -1,5 +1,10 @@
 p,h2,h3{
     text-shadow: 1px 1px 1px #FFFFFF;
+     display: flex;
+    justify-content: center;   
+    align-items: center;      
+    height: 100vh; 
+    margin: 0;
 
 }
 
@@ -8,7 +13,8 @@ body{
     display: flex;
     justify-content: center;   
     align-items: center;      
-    height: 100vh;  
+    height: 100vh; 
+    margin: 0;
     text-shadow: 1px 1px 1px #FFFFFF;
 
 }
