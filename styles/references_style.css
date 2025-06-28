@@ -32,11 +32,11 @@ font-size:18px;
 
 body {
    background-color: #C5D7E2;
-   font-family:"Times New Roman", Times, serif;
+   font-family: sans-serif;
    border: 15px Blue;
    outline: #4CAF50 solid 10px;
    margin: auto;
    padding: 20px;
    text-align: center;
-   text-shadow: 1px 1px 1px #528ecc;
+   text-shadow: 1px 1px 1px #FFFFFF;
 }
