@@ -1,3 +1,9 @@
+nav a {
+  margin-right: 20px;  /* space between links */
+  text-decoration: none;  /* optional: removes underline */
+  color: black;  /* optional: sets link color */
+}
+
 div.a {
 color: Black;
 width: 10%;
