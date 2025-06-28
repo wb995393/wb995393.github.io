@@ -21,7 +21,7 @@ thead,th {
   text-transform: uppercase;
   text-align: center;
   border:1px solid;
-  text-shadow: 1px 1px 1px #FFFFFF;
+  text-shadow: .5px .5px .5px #FFFFFF;
 }
 
 table, td, tr {
