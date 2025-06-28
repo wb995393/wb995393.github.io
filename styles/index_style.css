@@ -1,6 +1,6 @@
 h1, h2 {
   color: #0D00A1;
-  text-shadow: 1px 1px 1px #000000;
+  text-shadow: 1px 1px 1px #FFFFFF;
 }
 div.a {
   color: Black;
@@ -43,7 +43,7 @@ body {
   margin: auto;
   padding: 20px;
   text-align: center;
-  text-shadow: 1px 1px 1px #000000;
+  text-shadow: 1px 1px 1px #FFFFFF;
 }
 
 button {
