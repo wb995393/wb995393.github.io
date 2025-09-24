@@ -26,73 +26,78 @@
 
   <br>
 
-  <div id="qualities">
-    <section class="qualities">
-      <form>
-        <span><strong>Select the personal qualities you look for in an ideal candidate.</strong></span>
-        <br><br>
+ <div id="qualities">
+  <section class="qualities">
+    <form>
+      <span><strong>Select the personal qualities you look for in an ideal candidate.</strong></span>
+      <br><br>
 
-        <input type="checkbox" name="qualities" id="ambitious" value="ambitious">
-        <label for="ambitious">Ambitious</label>
+      <input type="checkbox" name="qualities" id="analytical" value="analytical">
+      <label for="analytical">Analytical</label>
 
-        <input type="checkbox" name="qualities" id="integrity" value="integrity">
-        <label for="integrity">Integrity</label>
+      <input type="checkbox" name="qualities" id="ambitious" value="ambitious">
+      <label for="ambitious">Ambitious</label>
 
-        <input type="checkbox" name="qualities" id="compassionate" value="compassionate">
-        <label for="compassionate">Compassionate</label>
+      <input type="checkbox" name="qualities" id="adaptable" value="adaptable">
+      <label for="adaptable">Adaptable</label>
 
-        <input type="checkbox" name="qualities" id="analytical" value="analytical">
-        <label for="analytical">Analytical</label>
+      <input type="checkbox" name="qualities" id="creative" value="creative">
+      <label for="creative">Creative</label>
 
-        <input type="checkbox" name="qualities" id="creative" value="creative">
-        <label for="creative">Creative</label>
+      <input type="checkbox" name="qualities" id="compassionate" value="compassionate">
+      <label for="compassionate">Compassionate</label>
 
-        <br><br>
+      <input type="checkbox" name="qualities" id="conscientious" value="conscientious">
+      <label for="conscientious">Conscientious</label>
 
-        <input type="checkbox" name="qualities" id="dependable" value="dependable">
-        <label for="dependable">Dependable</label>
+      <br><br>
 
-        <input type="checkbox" name="qualities" id="organized" value="organized">
-        <label for="organized">Organized</label>
+      <input type="checkbox" name="qualities" id="dependable" value="dependable">
+      <label for="dependable">Dependable</label>
+      
+      <input type="checkbox" name="qualities" id="innovative" value="innovative">
+      <label for="innovative">Innovative</label>
 
-        <input type="checkbox" name="qualities" id="self-motivated" value="self-motivated">
-        <label for="self-motivated">Self-Motivated</label>
+      <input type="checkbox" name="qualities" id="organized" value="organized">
+      <label for="organized">Organized</label>
 
-        <input type="checkbox" name="qualities" id="adaptable" value="adaptable">
-        <label for="adaptable">Adaptable</label>
+      <input type="checkbox" name="qualities" id="proactive" value="proactive">
+      <label for="proactive">Proactive</label>
 
-        <input type="checkbox" name="qualities" id="conscientious" value="conscientious">
-        <label for="conscientious">Conscientious</label>
-      </form>
-    </section>
-    
-   <br><br>
-    
-    <section class="button">
-      <button onclick="toggleButton()">Click To Get Your Ideal Candidate</button>
-      <p id="button"></p>
-    </section>
-  </div>
+      <input type="checkbox" name="qualities" id="self-motivated" value="self-motivated">
+      <label for="self-motivated">Self-Motivated</label>
+    </form>
+  </section>
+  
+  <br><br>
+  
+  <section class="button">
+    <button type="button" onclick="toggleButton()">Click To Get Your Ideal Candidate</button>
+    <p id="button"></p>
+  </section>
+</div>
 
-  <script>
-    var buttonClicked = false;
+<script>
+  function toggleButton() {
+    var buttonElement = document.getElementById("button");
+    var checkboxes = document.querySelectorAll('input[type="checkbox"][name="qualities"]');
 
-    function toggleButton() {
-      var buttonElement = document.getElementById("button");
+    // Check if ALL checkboxes are selected
+    var allChecked = Array.from(checkboxes).every(cb => cb.checked);
 
-      if (buttonClicked) {
-        buttonElement.innerHTML = "";
-        buttonClicked = false;
-      } else {
-        buttonElement.style.color = 'white';
-        buttonElement.style.font = 'bold 100px Elephant, sans-serif';
-        buttonElement.style.textShadow = '10px 10px 10px #0E12A2';
-        buttonElement.innerHTML = "Will Buckhout";
-        buttonClicked = true;
-      }
+    if (allChecked) {
+      buttonElement.style.color = 'white';
+      buttonElement.style.font = 'bold 100px Elephant, sans-serif';
+      buttonElement.style.textShadow = '10px 10px 10px #0E12A2';
+      buttonElement.innerHTML = "Will Buckhout";
+    } else {
+      buttonElement.innerHTML = ""; // Clear text if not all are checked
     }
-  </script>
+  }
+</script>
+
 
 </body>
 </html>
+
 
