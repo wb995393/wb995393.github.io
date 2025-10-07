@@ -4,8 +4,9 @@ nav a {
   color: black;  /* optional: sets link color */
 }
 
-p,h2,h3{
-    text-shadow: 1px 1px 1px #FFFFFF;
+
+p,h2,h3 {
+  text-shadow: 1px 1px 1px #FFFFFF;
 }
 
 
@@ -13,12 +14,12 @@ body {
   background-color: #C5D7E2;
   font-family: sans-serif;
   border: 15px Blue;
- margin: auto;
- padding: 20px;
- text-shadow: 1px 1px 1px #FFFFFF;
- text-align: center;
-
+  margin: auto;
+  padding: 20px;
+  text-shadow: 1px 1px 1px #FFFFFF;
+  text-align: center;
 }
+
 
 
 
