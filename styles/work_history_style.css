@@ -4,24 +4,21 @@ nav a {
   color: black;  /* optional: sets link color */
 }
 
-p {
-  text-shadow: 1px 1px 1px #FFFFFF;
-  width: 50%;                 /* half the page width */
-  margin: 30px auto; 
-}
-
-h2,h3 {
+p,h2,h3 {
     text-shadow: 1px 1px 1px #FFFFFF;
+    width: 50%;                 
+    margin: 30px auto; 
 
 }
 
 body {
     background-color: #C5D7E2;
     font-family: sans-serif;
- /*   text-align: center;   */
+    text-align: center;   
     text-shadow: 1px 1px 1px #FFFFFF;
 
 }
+
 
 
 
