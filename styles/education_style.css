@@ -4,14 +4,6 @@ nav a {
   color: black;  /* optional: sets link color */
 }
 
-.separator {
-  border: 0;
-  border-top: 2px solid #000; /* solid black line */
-  width: 50%;                 /* half the page width */
-  margin: 30px auto; 
-}
-
-
 p,h2,h3{
     text-shadow: 1px 1px 1px #FFFFFF;
 }
@@ -27,5 +19,6 @@ body {
  text-align: center;
 
 }
+
 
 
