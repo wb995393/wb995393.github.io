@@ -4,7 +4,7 @@ nav a {
   color: black;  /* optional: sets link color */
 }
 
-p,h2,h3 {
+p,h3 {
     text-shadow: 1px 1px 1px #FFFFFF;
     width: 50%;                 
     margin: 30px auto; 
@@ -16,6 +16,7 @@ body {
     text-align: center;  
     text-shadow: 1px 1px 1px #FFFFFF;
 }
+
 
 
 
